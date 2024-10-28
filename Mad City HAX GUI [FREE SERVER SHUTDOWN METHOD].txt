@@ -1,0 +1,1 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/tonumber/roblox-scripts/main/mchx/main.lua'))()

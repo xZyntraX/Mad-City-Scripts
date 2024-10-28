@@ -1,0 +1,7 @@
+-- you have to execute the script every time you get new weapon or superhero
+-- it does not work on MP5 idk why
+for i, v in pairs(getgc()) do
+    if type(v) == "function" and getinfo(v).name == "Reload" then
+        debug.setupvalue(v, 2, math.huge)
+    end
+end
